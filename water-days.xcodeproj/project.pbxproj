@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152AD0A09B3ECE6EFB72E013 /* Pods_water_daysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D34CBAE31A30AB13F01B296 /* Pods_water_daysTests.framework */; };
+		5A6DBDC5623BC257592FC1B3 /* Pods_water_days.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75738765BB6162C5F19A094F /* Pods_water_days.framework */; };
+		6271452305F32A1C1D5A4EFB /* Pods_water_daysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AD01E6F26475C6A64143C6 /* Pods_water_daysUITests.framework */; };
 		9C958E072205A7580020C407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C958E062205A7580020C407 /* AppDelegate.swift */; };
 		9C958E092205A7580020C407 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C958E082205A7580020C407 /* HomeViewController.swift */; };
 		9C958E0C2205A7580020C407 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C958E0A2205A7580020C407 /* HomeViewController.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA3D3D61C4002F22A027BFC /* Pods-water-days.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-water-days.debug.xcconfig"; path = "Target Support Files/Pods-water-days/Pods-water-days.debug.xcconfig"; sourceTree = "<group>"; };
+		29EF8BE88CEB641D7A857551 /* Pods-water-daysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-water-daysUITests.debug.xcconfig"; path = "Target Support Files/Pods-water-daysUITests/Pods-water-daysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5809CB9E09880D440C371EF8 /* Pods-water-daysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-water-daysUITests.release.xcconfig"; path = "Target Support Files/Pods-water-daysUITests/Pods-water-daysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B8F754065079F7F22C86743 /* Pods-water-daysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-water-daysTests.debug.xcconfig"; path = "Target Support Files/Pods-water-daysTests/Pods-water-daysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66856C4D0044DC598D2AFCEF /* Pods-water-days.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-water-days.release.xcconfig"; path = "Target Support Files/Pods-water-days/Pods-water-days.release.xcconfig"; sourceTree = "<group>"; };
+		6D34CBAE31A30AB13F01B296 /* Pods_water_daysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_water_daysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75738765BB6162C5F19A094F /* Pods_water_days.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_water_days.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AD01E6F26475C6A64143C6 /* Pods_water_daysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_water_daysUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C958E032205A7580020C407 /* water-days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water-days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C958E062205A7580020C407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C958E082205A7580020C407 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		9C958E222205A75C0020C407 /* water-daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water-daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C958E262205A75C0020C407 /* water_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_daysUITests.swift; sourceTree = "<group>"; };
 		9C958E282205A75C0020C407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39300CD4F23185266D34EE4 /* Pods-water-daysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-water-daysTests.release.xcconfig"; path = "Target Support Files/Pods-water-daysTests/Pods-water-daysTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6DBDC5623BC257592FC1B3 /* Pods_water_days.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152AD0A09B3ECE6EFB72E013 /* Pods_water_daysTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6271452305F32A1C1D5A4EFB /* Pods_water_daysUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6908165C45F712277B09F66C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3D3D61C4002F22A027BFC /* Pods-water-days.debug.xcconfig */,
+				66856C4D0044DC598D2AFCEF /* Pods-water-days.release.xcconfig */,
+				5B8F754065079F7F22C86743 /* Pods-water-daysTests.debug.xcconfig */,
+				D39300CD4F23185266D34EE4 /* Pods-water-daysTests.release.xcconfig */,
+				29EF8BE88CEB641D7A857551 /* Pods-water-daysUITests.debug.xcconfig */,
+				5809CB9E09880D440C371EF8 /* Pods-water-daysUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C958DFA2205A7580020C407 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				9C958E1A2205A75C0020C407 /* water-daysTests */,
 				9C958E252205A75C0020C407 /* water-daysUITests */,
 				9C958E042205A7580020C407 /* Products */,
+				6908165C45F712277B09F66C /* Pods */,
+				AEF831B69ADEAC9EF05B6AFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +212,16 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		AEF831B69ADEAC9EF05B6AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75738765BB6162C5F19A094F /* Pods_water_days.framework */,
+				6D34CBAE31A30AB13F01B296 /* Pods_water_daysTests.framework */,
+				81AD01E6F26475C6A64143C6 /* Pods_water_daysUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C958E2B2205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-days" */;
 			buildPhases = (
+				0327107D725E52381813CA6B /* [CP] Check Pods Manifest.lock */,
 				9C958DFF2205A7580020C407 /* Sources */,
 				9C958E002205A7580020C407 /* Frameworks */,
 				9C958E012205A7580020C407 /* Resources */,
+				B60610DD47721F4090487348 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C958E2E2205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-daysTests" */;
 			buildPhases = (
+				FE2B1A9A90271EA7BB8E38D5 /* [CP] Check Pods Manifest.lock */,
 				9C958E132205A75C0020C407 /* Sources */,
 				9C958E142205A75C0020C407 /* Frameworks */,
 				9C958E152205A75C0020C407 /* Resources */,
@@ -223,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C958E312205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-daysUITests" */;
 			buildPhases = (
+				9A4F0C3D12990E56174EDB97 /* [CP] Check Pods Manifest.lock */,
 				9C958E1E2205A75C0020C407 /* Sources */,
 				9C958E1F2205A75C0020C407 /* Frameworks */,
 				9C958E202205A75C0020C407 /* Resources */,
@@ -306,6 +351,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0327107D725E52381813CA6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-water-days-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4F0C3D12990E56174EDB97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-water-daysUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60610DD47721F4090487348 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-water-days/Pods-water-days-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BAFluidView/BAFluidView.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BAFluidView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-water-days/Pods-water-days-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2B1A9A90271EA7BB8E38D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-water-daysTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C958DFF2205A7580020C407 /* Sources */ = {
@@ -486,6 +628,7 @@
 		};
 		9C958E2C2205A75C0020C407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA3D3D61C4002F22A027BFC /* Pods-water-days.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +647,7 @@
 		};
 		9C958E2D2205A75C0020C407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66856C4D0044DC598D2AFCEF /* Pods-water-days.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +666,7 @@
 		};
 		9C958E2F2205A75C0020C407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8F754065079F7F22C86743 /* Pods-water-daysTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +688,7 @@
 		};
 		9C958E302205A75C0020C407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39300CD4F23185266D34EE4 /* Pods-water-daysTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +710,7 @@
 		};
 		9C958E322205A75C0020C407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29EF8BE88CEB641D7A857551 /* Pods-water-daysUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +731,7 @@
 		};
 		9C958E332205A75C0020C407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5809CB9E09880D440C371EF8 /* Pods-water-daysUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

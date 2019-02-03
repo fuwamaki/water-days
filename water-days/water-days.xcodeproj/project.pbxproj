@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C958E072205A7580020C407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C958E062205A7580020C407 /* AppDelegate.swift */; };
+		9C958E092205A7580020C407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C958E082205A7580020C407 /* ViewController.swift */; };
+		9C958E0C2205A7580020C407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C958E0A2205A7580020C407 /* Main.storyboard */; };
+		9C958E0E2205A75C0020C407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C958E0D2205A75C0020C407 /* Assets.xcassets */; };
+		9C958E112205A75C0020C407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C958E0F2205A75C0020C407 /* LaunchScreen.storyboard */; };
+		9C958E1C2205A75C0020C407 /* water_daysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C958E1B2205A75C0020C407 /* water_daysTests.swift */; };
+		9C958E272205A75C0020C407 /* water_daysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C958E262205A75C0020C407 /* water_daysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C958E182205A75C0020C407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C958DFB2205A7580020C407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C958E022205A7580020C407;
+			remoteInfo = "water-days";
+		};
+		9C958E232205A75C0020C407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C958DFB2205A7580020C407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C958E022205A7580020C407;
+			remoteInfo = "water-days";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C958E032205A7580020C407 /* water-days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water-days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C958E062205A7580020C407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C958E082205A7580020C407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C958E0B2205A7580020C407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C958E0D2205A75C0020C407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C958E102205A75C0020C407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C958E122205A75C0020C407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C958E172205A75C0020C407 /* water-daysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water-daysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C958E1B2205A75C0020C407 /* water_daysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_daysTests.swift; sourceTree = "<group>"; };
+		9C958E1D2205A75C0020C407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C958E222205A75C0020C407 /* water-daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water-daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C958E262205A75C0020C407 /* water_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_daysUITests.swift; sourceTree = "<group>"; };
+		9C958E282205A75C0020C407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C958E002205A7580020C407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C958E142205A75C0020C407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C958E1F2205A75C0020C407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C958DFA2205A7580020C407 = {
+			isa = PBXGroup;
+			children = (
+				9C958E052205A7580020C407 /* water-days */,
+				9C958E1A2205A75C0020C407 /* water-daysTests */,
+				9C958E252205A75C0020C407 /* water-daysUITests */,
+				9C958E042205A7580020C407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C958E042205A7580020C407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C958E032205A7580020C407 /* water-days.app */,
+				9C958E172205A75C0020C407 /* water-daysTests.xctest */,
+				9C958E222205A75C0020C407 /* water-daysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C958E052205A7580020C407 /* water-days */ = {
+			isa = PBXGroup;
+			children = (
+				9C958E062205A7580020C407 /* AppDelegate.swift */,
+				9C958E082205A7580020C407 /* ViewController.swift */,
+				9C958E0A2205A7580020C407 /* Main.storyboard */,
+				9C958E0D2205A75C0020C407 /* Assets.xcassets */,
+				9C958E0F2205A75C0020C407 /* LaunchScreen.storyboard */,
+				9C958E122205A75C0020C407 /* Info.plist */,
+			);
+			path = "water-days";
+			sourceTree = "<group>";
+		};
+		9C958E1A2205A75C0020C407 /* water-daysTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C958E1B2205A75C0020C407 /* water_daysTests.swift */,
+				9C958E1D2205A75C0020C407 /* Info.plist */,
+			);
+			path = "water-daysTests";
+			sourceTree = "<group>";
+		};
+		9C958E252205A75C0020C407 /* water-daysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C958E262205A75C0020C407 /* water_daysUITests.swift */,
+				9C958E282205A75C0020C407 /* Info.plist */,
+			);
+			path = "water-daysUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C958E022205A7580020C407 /* water-days */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C958E2B2205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-days" */;
+			buildPhases = (
+				9C958DFF2205A7580020C407 /* Sources */,
+				9C958E002205A7580020C407 /* Frameworks */,
+				9C958E012205A7580020C407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "water-days";
+			productName = "water-days";
+			productReference = 9C958E032205A7580020C407 /* water-days.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C958E162205A75C0020C407 /* water-daysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C958E2E2205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-daysTests" */;
+			buildPhases = (
+				9C958E132205A75C0020C407 /* Sources */,
+				9C958E142205A75C0020C407 /* Frameworks */,
+				9C958E152205A75C0020C407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C958E192205A75C0020C407 /* PBXTargetDependency */,
+			);
+			name = "water-daysTests";
+			productName = "water-daysTests";
+			productReference = 9C958E172205A75C0020C407 /* water-daysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C958E212205A75C0020C407 /* water-daysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C958E312205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-daysUITests" */;
+			buildPhases = (
+				9C958E1E2205A75C0020C407 /* Sources */,
+				9C958E1F2205A75C0020C407 /* Frameworks */,
+				9C958E202205A75C0020C407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C958E242205A75C0020C407 /* PBXTargetDependency */,
+			);
+			name = "water-daysUITests";
+			productName = "water-daysUITests";
+			productReference = 9C958E222205A75C0020C407 /* water-daysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C958DFB2205A7580020C407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sekimaki;
+				TargetAttributes = {
+					9C958E022205A7580020C407 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9C958E162205A75C0020C407 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9C958E022205A7580020C407;
+					};
+					9C958E212205A75C0020C407 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9C958E022205A7580020C407;
+					};
+				};
+			};
+			buildConfigurationList = 9C958DFE2205A7580020C407 /* Build configuration list for PBXProject "water-days" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C958DFA2205A7580020C407;
+			productRefGroup = 9C958E042205A7580020C407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C958E022205A7580020C407 /* water-days */,
+				9C958E162205A75C0020C407 /* water-daysTests */,
+				9C958E212205A75C0020C407 /* water-daysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C958E012205A7580020C407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C958E112205A75C0020C407 /* LaunchScreen.storyboard in Resources */,
+				9C958E0E2205A75C0020C407 /* Assets.xcassets in Resources */,
+				9C958E0C2205A7580020C407 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C958E152205A75C0020C407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C958E202205A75C0020C407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C958DFF2205A7580020C407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C958E092205A7580020C407 /* ViewController.swift in Sources */,
+				9C958E072205A7580020C407 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C958E132205A75C0020C407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C958E1C2205A75C0020C407 /* water_daysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C958E1E2205A75C0020C407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C958E272205A75C0020C407 /* water_daysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C958E192205A75C0020C407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C958E022205A7580020C407 /* water-days */;
+			targetProxy = 9C958E182205A75C0020C407 /* PBXContainerItemProxy */;
+		};
+		9C958E242205A75C0020C407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C958E022205A7580020C407 /* water-days */;
+			targetProxy = 9C958E232205A75C0020C407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C958E0A2205A7580020C407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C958E0B2205A7580020C407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C958E0F2205A75C0020C407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C958E102205A75C0020C407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C958E292205A75C0020C407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C958E2A2205A75C0020C407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C958E2C2205A75C0020C407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBN8C4YU6Q;
+				INFOPLIST_FILE = "water-days/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sekimaki.water-days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C958E2D2205A75C0020C407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBN8C4YU6Q;
+				INFOPLIST_FILE = "water-days/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sekimaki.water-days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C958E2F2205A75C0020C407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBN8C4YU6Q;
+				INFOPLIST_FILE = "water-daysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sekimaki.water-daysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water-days.app/water-days";
+			};
+			name = Debug;
+		};
+		9C958E302205A75C0020C407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBN8C4YU6Q;
+				INFOPLIST_FILE = "water-daysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sekimaki.water-daysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water-days.app/water-days";
+			};
+			name = Release;
+		};
+		9C958E322205A75C0020C407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBN8C4YU6Q;
+				INFOPLIST_FILE = "water-daysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sekimaki.water-daysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "water-days";
+			};
+			name = Debug;
+		};
+		9C958E332205A75C0020C407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBN8C4YU6Q;
+				INFOPLIST_FILE = "water-daysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sekimaki.water-daysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "water-days";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C958DFE2205A7580020C407 /* Build configuration list for PBXProject "water-days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C958E292205A75C0020C407 /* Debug */,
+				9C958E2A2205A75C0020C407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C958E2B2205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C958E2C2205A75C0020C407 /* Debug */,
+				9C958E2D2205A75C0020C407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C958E2E2205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-daysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C958E2F2205A75C0020C407 /* Debug */,
+				9C958E302205A75C0020C407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C958E312205A75C0020C407 /* Build configuration list for PBXNativeTarget "water-daysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C958E322205A75C0020C407 /* Debug */,
+				9C958E332205A75C0020C407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C958DFB2205A7580020C407 /* Project object */;
+}

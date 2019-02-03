@@ -9,7 +9,7 @@
 import XCTest
 @testable import water_days
 
-class water_daysTests: XCTestCase {
+class WaterDaysTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

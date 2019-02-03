@@ -97,12 +97,14 @@
 		9C958E052205A7580020C407 /* water-days */ = {
 			isa = PBXGroup;
 			children = (
-				9C958E062205A7580020C407 /* AppDelegate.swift */,
-				9C958E082205A7580020C407 /* ViewController.swift */,
-				9C958E0A2205A7580020C407 /* Main.storyboard */,
-				9C958E0D2205A75C0020C407 /* Assets.xcassets */,
-				9C958E0F2205A75C0020C407 /* LaunchScreen.storyboard */,
 				9C958E122205A75C0020C407 /* Info.plist */,
+				9C958E342206B4130020C407 /* AppDelegate */,
+				9C958E382206B4990020C407 /* Classes */,
+				9C958E3B2206B4E80020C407 /* Resource */,
+				9C958E372206B4790020C407 /* Model */,
+				9C958E3A2206B4DA0020C407 /* Util */,
+				9C958E352206B43F0020C407 /* Extension */,
+				9C958E392206B4B80020C407 /* Support Files */,
 			);
 			path = "water-days";
 			sourceTree = "<group>";
@@ -123,6 +125,60 @@
 				9C958E282205A75C0020C407 /* Info.plist */,
 			);
 			path = "water-daysUITests";
+			sourceTree = "<group>";
+		};
+		9C958E342206B4130020C407 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9C958E062205A7580020C407 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9C958E352206B43F0020C407 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9C958E372206B4790020C407 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C958E382206B4990020C407 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9C958E082205A7580020C407 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9C958E392206B4B80020C407 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		9C958E3A2206B4DA0020C407 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9C958E3B2206B4E80020C407 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9C958E0D2205A75C0020C407 /* Assets.xcassets */,
+				9C958E0A2205A7580020C407 /* Main.storyboard */,
+				9C958E0F2205A75C0020C407 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

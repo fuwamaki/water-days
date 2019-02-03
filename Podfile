@@ -5,7 +5,7 @@ target 'water-days' do
   pod 'SwiftLint', '~> 0.26.0'
   pod 'RxSwift', '~> 4.4.0'
   pod 'RxCocoa', '~> 4.4.0'
-  pod 'BAFluidView'
+  pod 'BAFluidView', '0.2.4'
 
   target 'water-daysTests' do
     inherit! :search_paths

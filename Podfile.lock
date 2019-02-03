@@ -8,7 +8,7 @@ PODS:
   - SwiftLint (0.26.0)
 
 DEPENDENCIES:
-  - BAFluidView
+  - BAFluidView (= 0.2.4)
   - RxCocoa (~> 4.4.0)
   - RxSwift (~> 4.4.0)
   - SwiftLint (~> 0.26.0)
@@ -28,6 +28,6 @@ SPEC CHECKSUMS:
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   SwiftLint: f6b83e8d95ee1e91e11932d843af4fdcbf3fc764
 
-PODFILE CHECKSUM: 23e2b5b05e0a359b87bb5a972ecdd84729d3b4d7
+PODFILE CHECKSUM: 8298a81e35058154f8d97ffef03afee596562399
 
 COCOAPODS: 1.6.0.rc.2
